@@ -1,3 +1,3 @@
-## OOP C++ Project
+# OOP C++ Project
 
-# Command Line ATM
+### Command Line ATM
