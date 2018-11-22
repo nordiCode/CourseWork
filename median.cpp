@@ -27,12 +27,12 @@ int main(){
 
   int median;
   if(length % 2 == 0){
-    int middle = (length/2) - 1;
-    median = arr[middle];
-  }else{
     int mid = (length - 1)/2;
     int mid2 = mid + 1;
     median = (arr[mid]+arr[mid2])/2;
+  }else{
+    int middle = ((length-1)/2);
+    median = arr[middle];
   }
   cout<<"The median:"<<median<<"\n";
   return 0;
